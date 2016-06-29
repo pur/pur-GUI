@@ -20,6 +20,8 @@
     "tests"
   ],
   "devDependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "bootstrap-material-design": "^0.5.10"
   }
 }
