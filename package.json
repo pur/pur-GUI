@@ -1,0 +1,19 @@
+{
+  "name": "pur-gui",
+  "version": "1.0.0",
+  "description": "GUI element for pur modules",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pur/pur-GUI.git"
+  },
+  "author": "Benjamin Dehli <superelg@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pur/pur-GUI/issues"
+  },
+  "homepage": "https://github.com/pur/pur-GUI#readme"
+}
