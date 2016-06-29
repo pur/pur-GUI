@@ -24,6 +24,7 @@
     "font-awesome": "^4.6.3",
     "bootstrap-material-design": "^0.5.10",
     "roboto": "https://google-fonts.azurewebsites.net/googleFonts/Roboto?family=Roboto:400,300,500,700",
-    "autosize": "^3.0.15"
+    "autosize": "^3.0.15",
+    "moment": "^2.13.0"
   }
 }
