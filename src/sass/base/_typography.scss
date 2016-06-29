@@ -1,0 +1,44 @@
+body {
+  font-family: $font;
+}
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .responsive-table h2 {
+    background-color: #4781cc;
+    color: #FFF;
+    margin: -5px -10px 10px -10px;
+    padding: 10px;
+  }
+}
+
+a {
+  color: $blue;
+}
+
+a:hover {
+  color: $blue-hover;
+}
+
+.text-success {
+  color: $green !important;
+}
+
+.text-danger {
+  color: $red !important;
+}

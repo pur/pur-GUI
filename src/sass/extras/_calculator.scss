@@ -1,0 +1,202 @@
+/* Main style sheet for jQuery Calculator v2.0.1 */
+div.is-calculator, span.is-calculator {
+  position: relative;
+}
+button.calculator-trigger {
+  width: 25px;
+  padding: 0px;
+}
+img.calculator-trigger {
+  margin: 2px;
+  vertical-align: middle;
+}
+
+.calculator-popup {
+  display: none;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  border: 1px solid $default-border;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 0px;
+  color: $dark-gray;
+  background-color: $white;
+  font-family: Arial,Helvetica,sans-serif;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.calculator-keyentry {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 0px;
+}
+.calculator-inline {
+  position: relative;
+  border: 1px solid $default-border;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: $white;
+}
+.calculator-inline .calculator-close {
+  display: none;
+}
+.calculator-disabled {
+  position: absolute;
+  z-index: 100;
+  background-color: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.calculator-rtl {
+  direction: rtl;
+}
+.calculator-prompt {
+  clear: both;
+  text-align: center;
+}
+.calculator-prompt.ui-widget-header {
+  margin: 2px;
+}
+.calculator-result {
+  clear: both;
+  margin: 2px;
+  text-align: right;
+  background-color: #fff;
+  border: 1px solid $blue;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+}
+.calculator-result span {
+  display: inline-block;
+  width: 100%;
+}
+.calculator-result .calculator-formula {
+  font-size: 60%;
+}
+.calculator-focussed {
+  background-color: #ffc;
+}
+.calculator-row {
+  clear: both;
+  width: 100%;
+}
+.calculator-space {
+  float: left;
+  margin: 2px;
+  width: 46px;
+}
+.calculator-half-space {
+  float: left;
+  margin: 1px;
+  width: 14px;
+}
+.calculator-row button {
+  position: relative;
+  float: left;
+  margin: 2px;
+  background-color: $default;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid $default-border;
+
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.42857143;
+  width: 46px;
+  height: 34px;
+}
+
+.calculator-row button:hover {
+  background-color: $default-hover;
+  border-color: $default-hover-border;
+}
+
+.calculator-row .calculator-ctrl {
+  width: 71px;
+  background-color: $default;
+}
+.calculator-row .calculator-undo, .calculator-row .calculator-clear-error, .calculator-row .calculator-clear {
+  width: 46px;
+}
+.calculator-row .calculator-base, .calculator-row .calculator-angle {
+  width: 28px;
+  font-size: 70%;
+}
+.calculator-row .calculator-base-active, .calculator-row .calculator-angle-active {
+  border: 2px inset $white;
+}
+.calculator-digit, .calculator-oper {
+  width: 28px;
+}
+.calculator-mem-empty, .calculator-digit[disabled] {
+  color: $default-disabled-color;
+}
+.calculator-row .calculator-trig {
+  font-size: 70%;
+}
+@-moz-document url-prefix() { // Firefox
+  .calculator-trig, .calculator-base {
+    text-indent: -3px;
+  }
+}
+.calculator-key-down {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.calculator-keystroke {
+  display: none;
+  width: 16px;
+  height: 14px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  color: $gray;
+  background-color: $white;
+  border: 1px solid $default-border;
+  font-size: 80%;
+}
+.calculator-angle .calculator-keystroke, .calculator-base .calculator-keystroke, .calculator-trig .calculator-keystroke {
+  top: -2px;
+  font-size: 95%;
+}
+.calculator-keyname {
+  width: 22px;
+  font-size: 70%;
+}
+
+/*
+.calculator-use:before {
+  content: "\f00c";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.calculator-close:before {
+  content: "\f00d";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.calculator-use, .calculator-close {
+  width: 69px;
+}
+*/
+
+

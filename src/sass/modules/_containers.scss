@@ -1,0 +1,73 @@
+body {
+  background-color: #EEE;
+}
+
+main {
+  background-color: #F9F9F9;
+  padding-bottom: 40px;
+}
+
+section {
+  margin: 20px 0;
+  background-color: #FFF;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+  border: 1px solid $default-border;
+}
+
+section.padding {
+  padding: 5px 10px;
+}
+
+section > .panel {
+  border: none;
+  overflow: hidden;
+}
+
+.panel {
+  margin-bottom: 0;
+  .list-group-item:last-child {
+    margin-bottom: -1px;
+  }
+}
+
+section>.tab-content>.panel, section>.panel {
+  border: none;
+}
+
+.panel-primary {
+  border-color: #DDD;
+}
+
+.panel-primary > .panel-heading {
+  background-color: $blue;
+}
+
+.panel-action-bar {
+  position: relative;
+  top: -19px;
+  a {
+    color: $white;
+    .fa {
+      font-size: 1.5em;
+      margin-left: 8px;
+    }
+  }
+  .collapsed .fa-compress:before {
+    content: "\f065";
+  }
+}
+
+.form-group {
+  margin-top: 5px;
+}
+
+.fagmodul{
+  border-radius: 0;
+}
+.fagmodul>div {
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+}
+
+
+
