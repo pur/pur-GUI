@@ -25,6 +25,7 @@
     "bootstrap-material-design": "^0.5.10",
     "roboto": "https://google-fonts.azurewebsites.net/googleFonts/Roboto?family=Roboto:400,300,500,700",
     "autosize": "^3.0.15",
-    "moment": "^2.13.0"
+    "moment": "^2.13.0",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.37"
   }
 }
