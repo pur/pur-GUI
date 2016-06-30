@@ -190,7 +190,6 @@ $(document).ready(function () {
 // Datetime picker
 $(document).ready(function() {
     $('.date').each(function () {
-        console.log("date");
         var id = $(this).attr('id');
         $(function () {
             $('#' + id).datetimepicker({
