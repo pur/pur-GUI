@@ -2,10 +2,7 @@
   "name": "pur-gui",
   "description": "GUI element for pur modules",
   "main": [
-    "Gulpfile.js",
-    "package.json",
-    "gulp-config.json.example",
-    "src"
+    "assets/"
   ],
   "authors": [
     "Benjamin Dehli <superelg@gmail.com>"
