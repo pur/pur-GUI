@@ -5,6 +5,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
+    replace = require('gulp-replace'),
     del = require('del');
 
 var config = require('./gulp-config.json');
@@ -26,6 +27,12 @@ gulp.task('styles', function () {
     return gulp.src(config.paths.css)
         .pipe(sass().on('error', sass.logError))
         .pipe(concat('main.css'))
+        .pipe(replace("), url(", "), url(../fonts/"))
+        .pipe(replace("url(../fonts/../fonts/", "url(../fonts/"))
+        .pipe(replace("url(../fonts/../font/", "url(../fonts/"))
+        .pipe(replace('url(../fonts/"../', 'url("../'))
+        .pipe(replace('../../fonts/roboto/', '../fonts/'))
+        .pipe(replace('url(../font/', "url(../fonts/"))
         .pipe(gulp.dest(assets + '/css/'))
         .pipe(rename({suffix: '.min'}))
         .pipe(cssnano())

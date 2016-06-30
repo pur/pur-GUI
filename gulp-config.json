@@ -15,13 +15,15 @@
       "bower_components/bootstrap-material-design/dist/css/ripples.min.css",
       "bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
       "bower_components/font-awesome/css/font-awesome.min.css",
-      "bower_components/roboto/roboto.css",
+      "bower_components/roboto-fontface/css/roboto/roboto-fontface.css",
+      "bower_components/lato/css/lato.min.css",
       "src/sass/**/*.scss"
     ],
     "fonts": [
       "bower_components/font-awesome/fonts/*.{otf,eot,svg,ttf,woff,woff2}",
       "bower_components/bootstrap/fonts/*.{otf,eot,svg,ttf,woff,woff2}",
-      "bower_components/roboto/*.{otf,eot,svg,ttf,woff,woff2}",
+      "bower_components/roboto-fontface/fonts/roboto/*.{otf,eot,svg,ttf,woff,woff2}",
+      "bower_components/lato/font/**/*",
       "src/fonts/*.{otf,eot,svg,ttf,woff,woff2}"
     ],
     "images": [
