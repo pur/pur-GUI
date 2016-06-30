@@ -2,7 +2,7 @@
   "name": "pur-gui",
   "description": "GUI element for pur modules",
   "main": [
-    "assets/"
+    "assets"
   ],
   "authors": [
     "Benjamin Dehli <superelg@gmail.com>"
@@ -13,6 +13,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "src",
     "test",
     "tests"
   ],
