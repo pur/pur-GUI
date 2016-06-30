@@ -5,7 +5,7 @@
       "bower_components/bootstrap/dist/js/bootstrap.min.js",
       "bower_components/autosize/dist/autosize.min.js",
       "bower_components/moment/min/js/moment-with-locales.min.js",
-      "bower_components/eonasdan-bootstrap-datetimepicker/buil/js/bootstrap-datetimepicker.min.js",
+      "bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js",
       "bower_components/bootstrap-material-design/dist/js/ripples.min.js",
       "bower_components/bootstrap-material-design/dist/js/material.min.js",
       "src/js/**/*.js"
@@ -13,7 +13,7 @@
     "css": [
       "bower_components/bootstrap/dist/css/bootstrap.min.css",
       "bower_components/bootstrap-material-design/dist/css/ripples.min.css",
-      "bower_components/eonasdan-bootstrap-datetimepicker/buil/css/bootstrap-datetimepicker.min.js",
+      "bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
       "bower_components/font-awesome/css/font-awesome.min.css",
       "bower_components/roboto/roboto.css",
       "src/sass/**/*.scss"
