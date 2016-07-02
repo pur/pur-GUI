@@ -7994,9 +7994,16 @@ button.close {
 
 @font-face {
   font-family: 'Lato';
-  src: url(../fonts/lato/lato-light.ttf);
+  src: url(../fonts/lato/Lato-Light.ttf);
   src: local("Lato Light"), local("Lato-Light"), url(../fonts/lato/lato-light.ttf) format("truetype");
   font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/lato/Lato-Thin.ttf);
+  src: local("Lato Thin"), local("Lato-Thin"), url(../fonts/lato/Lato-Thin.ttf) format("truetype");
+  font-weight: 200;
   font-style: normal; }
 
 .panel-heading,
@@ -8091,7 +8098,7 @@ body.welcome {
   /* IE10+ */
   background: radial-gradient(ellipse at center, #4781cc 0%, #6996d6 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='$blue-hover',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$blue', endColorstr='$blue-hover', GradientType=1);
   /* IE6-8 fallback on horizontal gradient */ }
   body.welcome .container {
     text-align: center;
@@ -8103,11 +8110,11 @@ body.welcome {
   body.welcome .title {
     font-size: 96px;
     margin-bottom: 20px;
-    font-family: 'LatoThin'; }
+    font-family: Lato, sans-serif; }
   body.welcome .quote {
     font-size: 24px;
     margin-bottom: 20px;
-    font-family: 'LatoThin'; }
+    font-family: Lato, sans-serif; }
 
 .btn {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
