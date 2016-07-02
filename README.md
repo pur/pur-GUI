@@ -16,14 +16,23 @@ pur-gui/
 │   ├── main.js
 │   └── main.min.js
 └── fonts/
-    ├── 13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf
+    ├── lato/
+    │   ├── Lato-Light.ttf
+    │   └── Lato-Thin.ttf
+    ├── roboto/
+    │   ├── Roboto-Bold.ttf
+    │   ├── Roboto-BoldItalic.ttf
+    │   ├── Roboto-Italic.ttf
+    │   └── Roboto-Regular.ttf
     ├── FontAwesome.otf
     ├── fontawesome-webfont.eot
     ├── fontawesome-webfont.svg
     ├── fontawesome-webfont.ttf
     ├── fontawesome-webfont.woff
     ├── fontawesome-webfont.woff2
-    ├── GBFwfMP4uA6AR0HCoLQ.ttf
-    ├── IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf
-    └── Jdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    ├── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff2
 ```
